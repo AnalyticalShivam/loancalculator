@@ -15,9 +15,9 @@ def calculate_loan_details(loan_amount, rate_of_interest, loan_tenure):
     total_interest = total_payment - loan_amount
 
     return {
-        "monthly_emi": round(emi, 2),
-        "total_interest": round(total_interest, 2),
-        "total_payment": round(total_payment, 2),
+        "monthly_emi": round(emi),
+        "total_interest": round(total_interest),
+        "total_payment": round(total_payment),
     }
 
 # Streamlit App
